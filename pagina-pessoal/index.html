@@ -17,6 +17,7 @@
                 <li><a href="index.html">Início</a></li>
                 <li><a href="sobre.html">Sobre mim</a></li>
                 <li><a href="#interesses">Interesses</a></li>
+                <li><a href="#contato">Contato</a></li>
                 <li><a href="https://github.com/fabinholemos" target="_blank" rel="noopener">GitHub</a></li>
             </ul>
         </nav>
@@ -46,6 +47,48 @@
                 <li>Estudar e criar conteúdo educacional</li>
                 <li>Jogos e filmes</li>
             </ul>
+        </section>
+
+        <section id="contato">
+            <h2>Entre em contato</h2>
+            <p>Preencha o formulário abaixo para enviar uma mensagem.</p>
+
+            <form action="#" method="post">
+
+                <fieldset>
+                    <legend>Seus dados</legend>
+
+                    <p>
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+                    </p>
+
+                    <p>
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+                    </p>
+
+                    <p>
+                        <label for="assunto">Assunto:</label>
+                        <input type="text" id="assunto" name="assunto" placeholder="Assunto da mensagem">
+                    </p>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Sua mensagem</legend>
+
+                    <p>
+                        <label for="mensagem">Mensagem:</label><br>
+                        <textarea id="mensagem" name="mensagem" rows="6" cols="40" placeholder="Escreva sua mensagem aqui..." required></textarea>
+                    </p>
+                </fieldset>
+
+                <p>
+                    <button type="submit">Enviar</button>
+                    <button type="reset">Limpar</button>
+                </p>
+
+            </form>
         </section>
 
     </main>
