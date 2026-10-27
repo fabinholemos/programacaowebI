@@ -77,3 +77,75 @@ footer {
 footer a {
     color: #a5d6a7;
 }
+
+/* ===== Formulário de contato ===== */
+
+form fieldset {
+    border: 1px solid #c8e6c9;
+    border-radius: 8px;
+    padding: 12px 16px;
+    margin: 0 0 16px;
+}
+
+form legend {
+    padding: 0 8px;
+    font-weight: bold;
+    color: #2e7d32;
+}
+
+form p {
+    margin: 0 0 12px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 4px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="email"],
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #b0bec5;
+    border-radius: 6px;
+    font-family: inherit;
+    font-size: 1rem;
+}
+
+form textarea {
+    resize: vertical;
+}
+
+form input:focus,
+form textarea:focus {
+    outline: none;
+    border-color: #2e7d32;
+    box-shadow: 0 0 0 3px rgba(46, 125, 50, 0.2);
+}
+
+form button {
+    padding: 10px 24px;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    color: #fff;
+}
+
+form button[type="submit"] {
+    background-color: #2e7d32;
+}
+
+form button[type="submit"]:hover {
+    background-color: #1b5e20;
+}
+
+form button[type="reset"] {
+    background-color: #607d8b;
+}
+
+form button[type="reset"]:hover {
+    background-color: #455a64;
+}
