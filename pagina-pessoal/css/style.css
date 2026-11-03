@@ -151,3 +151,47 @@ form button[type="reset"] {
 form button[type="reset"]:hover {
     background-color: #455a64;
 }
+
+
+/* Complementos da atividade: títulos, listas, classe, foto e responsividade */
+html { scroll-behavior: smooth; }
+
+h1 { font-size: 2.3rem; font-weight: 700; color: #ffffff; }
+header > p { color: #e8f5e9; margin-bottom: 18px; }
+h2 { font-size: 1.55rem; border-bottom: 2px solid #a5d6a7; padding-bottom: 10px; }
+
+section p { margin-top: 0; }
+section ul, section ol { padding-left: 26px; }
+section li { margin-bottom: 9px; }
+section li::marker { color: #2e7d32; }
+
+/* Seletor de classe aplicado ao HTML */
+.texto-destaque {
+    padding: 14px 18px;
+    border-left: 4px solid #2e7d32;
+    border-radius: 4px;
+    background-color: #e8f5e9;
+    color: #1b5e20;
+}
+
+.foto-perfil {
+    width: 200px;
+    height: 200px;
+    border: 5px solid #2e7d32;
+    border-radius: 50%;
+}
+
+nav a:focus-visible, footer a:focus-visible {
+    outline: 3px solid #ffd54f;
+    outline-offset: 3px;
+}
+footer a:hover { color: #ffffff; text-decoration: underline; }
+
+@media (max-width: 600px) {
+    header { padding-top: 20px; }
+    h1 { font-size: 1.9rem; }
+    main { margin: 16px auto; }
+    section { padding: 18px; }
+    nav a { padding: 9px 12px; }
+    .foto-perfil { width: 160px; height: 160px; }
+}
